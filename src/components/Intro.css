@@ -1,0 +1,132 @@
+.intro{
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    padding:3.125rem;
+    margin-top: 4.375rem;
+    /* position: relative; */
+}
+
+.socials{
+    display: flex;
+    /* border: 2px solid red; */
+    flex: 0.1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right:1.875rem;
+}
+
+.social-icon{
+    margin: 20px 0;
+    color: #6290C3;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    /* width: 55px; */
+}
+
+.social-icon:hover{
+    transform: scale(1.09);
+}
+
+#medium-icon{
+    width: 1.875rem;
+}
+
+
+
+.about-me{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    line-height: 0;
+    color: #121212;
+    margin-left: 1.875rem;
+    /* align-items: center; */
+    color: #212D40;
+}
+
+.about-me>#title-1{
+    color: #6290C3;
+    font-size: 1.875rem;
+}
+
+.about-me>#name{
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.about-me>#sub-title{
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.btn{
+    outline: none;
+    font-size: 1rem;
+    margin: 50px 20px 50px 0px;
+    border-radius: 50px;
+    border: 2px solid #212D40;
+    background-color: #212D40;
+    color: white;
+    padding: 15px 45px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover{
+    background-color: white;
+    color: #212D40;
+}
+
+
+#page-pic{
+    width: 350px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.moving-titles{
+    height: 3.125rem;
+    overflow: hidden;
+}
+
+.moving-titles-wrapper{
+    height: 100%;
+    animation: move 7.5s ease-in-out infinite alternate;
+    display: flex;
+    flex-direction: column;
+    /* overflow: hidden; */
+    line-height: 0;
+}
+
+.title-2{
+    height: 100%;
+    font-weight: 500;
+    color: #80b7f4;
+}
+
+@keyframes move{
+    50%{
+        transform: translateY(-50px);
+    }
+
+    100%{
+        transform: translateY(-100px);
+    }
+}

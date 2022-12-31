@@ -1,0 +1,18 @@
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 0.5;
+    color: #212D40;
+}
+
+.portfolio-title-1{
+    font-size: 1.5rem;
+    color: #6290C3;
+}
+
+.portfolio-title-2{
+    font-size: 2rem;
+}

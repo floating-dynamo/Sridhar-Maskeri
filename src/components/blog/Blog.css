@@ -1,0 +1,19 @@
+.blog{
+    padding: 10px 20px; 
+}
+
+.blog .blog-title{
+    margin: auto;
+    margin-top: 20px;
+    color: #212D40;
+}
+
+.blog .line{
+    display: inline-block;
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 2px;
+    background-color: #80b7f4;
+    border-radius: 40px;
+}

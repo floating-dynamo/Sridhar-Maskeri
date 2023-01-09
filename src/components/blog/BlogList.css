@@ -2,13 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: flex-start; */
+  flex-wrap: wrap;
 }
 
 .bloglist-blogs {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .bloglist-blog {
@@ -16,35 +19,54 @@
   background-size: cover;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  width: 30vw;
+  /* flex-direction: row; */
+  justify-content: flex-start;
+  position: relative;
+  width: 800px;
   margin: 10px;
   color: #212d40;
-  
+  height: 250px;
   /* background-color: #212D40; */
   border-radius: 0.3vw;
   cursor: pointer;
   /* border: 2px solid #212D40; */
   transition: 0.3s all ease-out;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .bloglist-blog .title {
-  font-weight: 500;
+  font-weight: 600;
   padding: 10px 25px;
 }
 
-.bloglist-blog img {
-  position: relative;
-  width: 100%;
-  border-radius: 0.3vw;
-  position: relative;
+.blog-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 50px;
+  margin-left: 20px;
 }
 
-.bloglist-blog:hover{
-  transform: scale(1.02);
+.blog-read-more-btn{
+  padding: 5px 10px;
+  margin: 0;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+.bloglist-blog img {
+  /* position: absolute; */
+  width: 300px;
+  border-radius: 0.3vw;
+  margin-left: 20px;
+  height: 70%;
+  top: 0;
+  left: 0;
 }
 
 /* .bloglist-blog img::before {
@@ -57,19 +79,15 @@
   background-color: #212d40;
   z-index: 2;
 } */
-.blog-thumbnail{
-  position: relative;
-}
-
 
 .bloglist-blog .pub-date {
   font-size: 0.7rem;
-  background-color: #212d40;
+  background-color: #6290c3;
   position: absolute;
   color: #f1f1f1;
   padding: 10px;
   border-radius: 0.3vw;
   margin: auto;
-  top: 0;
-  left: 0;
+  top: 10px;
+  right: 10px;
 }

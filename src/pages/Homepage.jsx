@@ -17,7 +17,7 @@ const Homepage = () => {
       <div style={{ height: "100vh" }}>
         <About />
       </div>
-      <div style={{ height: "100vh" }}>
+      <div style={{ height: "120vh" }}>
         <Skills />
       </div>
       <div style={{ height: "100vh" }}>

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Blog from "./Blog";
 import axios from "../../api";
 import "./BlogList.css";
 import { useNavigate } from "react-router-dom";
@@ -24,7 +23,10 @@ const BlogList = () => {
   }, []);
 
   if (isLoading) {
-    return <h1>Loading</h1>;
+    return <div className="bloglist-loading">
+      <h1>My Blogs</h1>
+      <p>Loading...</p>
+    </div>;
   }
 
   return (

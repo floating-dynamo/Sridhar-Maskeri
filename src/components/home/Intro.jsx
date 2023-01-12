@@ -1,7 +1,7 @@
 import React from "react";
 import "./Intro.css";
 import { Link } from "react-router-dom";
-import { GitHub, LinkedIn, Twitter } from "@material-ui/icons";
+import { GitHub, LinkedIn, Twitter, GetApp } from "@material-ui/icons";
 import medium from "../../assets/socials/mediumLogo.png";
 import landingPagePic from "../../assets/LandingPagePic.png";
 
@@ -55,8 +55,7 @@ const Intro = () => {
         </div>
         <p id="sub-title">SWE | Curious | Creative</p>
         <div className="btns">
-          <button className="btn">Download CV</button>
-          <button className="btn">Contact Me</button>
+          <button className="btn">Download CV <GetApp className="download-icon"/></button>
         </div>
       </div>
       <img id="page-pic" src={landingPagePic} alt="LandingPagePic.png" />

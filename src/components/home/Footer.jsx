@@ -10,6 +10,7 @@ import {
   Twitter,
 } from "@material-ui/icons";
 import CoffeeIcon from "@mui/icons-material/Coffee";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -37,16 +38,45 @@ const Footer = () => {
         <div className="connect">
           <p className="connect-title">Sridhar Maskeri ✌️</p>
           <div>
-            <Twitter className="contact-icon contact-icon-socials" />
-            <GitHub className="contact-icon contact-icon-socials" />
-            <LinkedIn className="contact-icon contact-icon-socials" />
-            <Code className="contact-icon contact-icon-socials" />
+            <a
+              href="https://twitter.com/SridharMaskeri"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Twitter className="contact-icon contact-icon-socials" />
+            </a>
+            <a
+              href="https://github.com/floating-dynamo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GitHub className="contact-icon contact-icon-socials" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sridhar-maskeri-1714001aa"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <LinkedIn className="contact-icon contact-icon-socials" />
+            </a>
+            <a
+              href="https://codesandbox.io/u/Floating_dynamo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Code className="contact-icon contact-icon-socials" />
+            </a>
           </div>
         </div>
-        <div className="buy-coffee">
+        <a
+          href="https://www.buymeacoffee.com/sridharmaskeri"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="buy-coffee"
+        >
           <p>Buy me a coffee</p>
           <CoffeeIcon className="footer-icons coffee" />
-        </div>
+        </a>
       </div>
     </div>
   );

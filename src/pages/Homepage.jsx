@@ -14,7 +14,7 @@ const Homepage = () => {
         <Navbar />
         <Intro />
       </div>
-      <div style={{ height: "140vh" }}>
+      <div style={{ height: "100vh" }}>
         <About />
       </div>
       <div style={{ height: "100vh" }}>

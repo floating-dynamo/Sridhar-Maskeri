@@ -84,7 +84,11 @@
 }
 
 .download-icon{
-    margin-left: 5px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 100%;
+    color: #212D40;
+    padding: 5px;
 }
 
 .btn:hover{

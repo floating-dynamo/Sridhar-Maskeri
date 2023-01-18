@@ -20,9 +20,6 @@ const Homepage = () => {
       <div style={{ height: "120vh" }}>
         <Skills />
       </div>
-      <div style={{ height: "100vh" }}>
-        <Portfolio />
-      </div>
       <div>
         <Footer />
       </div>

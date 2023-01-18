@@ -1,0 +1,28 @@
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project img {
+  width: 12.5rem;
+}
+
+.project .project-desc {
+  padding: 10px 50px;
+}
+
+.project .project-link {
+  text-decoration: none;
+  color: #212d40;
+}
+
+.project .project-link:hover {
+  color: #6290c3;
+}
+
+.project-name {
+  color: #6290c3;
+}

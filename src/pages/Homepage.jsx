@@ -10,14 +10,14 @@ import Skills from "../components/home/Skills";
 const Homepage = () => {
   return (
     <div>
-      <div style={{ position: "relative", height: "100vh" }}>
+      <div >
         <Navbar />
         <Intro />
       </div>
-      <div style={{ height: "100vh" }}>
+      <div >
         <About />
       </div>
-      <div style={{ height: "120vh" }}>
+      <div >
         <Skills />
       </div>
       <div>

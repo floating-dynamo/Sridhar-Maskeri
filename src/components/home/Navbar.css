@@ -57,3 +57,39 @@
 .links:hover:before {
   left: 0;
 }
+
+@media only screen and (max-width: 600px){
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  padding: 10px;
+
+  }
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 25px 30px; */
+    flex-wrap: wrap;
+  }
+
+  .navbar-links{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .links{
+    padding: 5px;
+
+  }
+  /* .hamburger-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+  } */
+  
+}
